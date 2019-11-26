@@ -1,0 +1,7 @@
+# 
+# Delete Project Outputs file
+
+*.uvguix.*
+*.html
+*.Zip
+Objects/*
