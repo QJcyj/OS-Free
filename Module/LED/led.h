@@ -1,6 +1,7 @@
 #ifndef __led_H_
 #define __led_H_
 
+#include "xp_config.h"
 #include "stm32f4xx.h"                  // Device header
 #include "mapping.h"
 #include "stm32f4xx_hal.h"              // Keil::Device:STM32Cube HAL:Common

@@ -1,5 +1,7 @@
 #include "led.h"
 
+#if LED_ENABLE
+
 //LED任务优先级
 #define LED_TASK_PRIO		1
 
@@ -48,3 +50,5 @@ void Create_LED_Task(void)
                 (TaskHandle_t*  )&LEDTask_Handler);            
     taskEXIT_CRITICAL();            //退出临界区
 }
+
+#endif
